@@ -2,12 +2,12 @@
 html,
 body {
     padding: 0;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body {
-  margin: 0;
-  /* min-width: 960px; */
+  min-width: 1500px;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 32px;
@@ -18,20 +18,20 @@ body {
   background-position: top center;
 }
 
-.container {
+/* .container {
   max-width: 860px;
   margin: 0 auto;
   padding: 0 16px;
-  }
+  } */
 
 .page-header {
-  margin: 0 0 50px;
+  margin-bottom: 50px;
   padding: 40px 0 40px;
   background-color: #288be6;
 }
 
 .page-header a {
-  margin-left: 56px;
+  margin-left: 60px;
   color:gold;
   text-decoration: none;
   background-repeat: no-repeat;
@@ -51,15 +51,15 @@ body {
 /* Імена в Україні */
 
 .title-text {
-  margin-bottom: 80px;
-}
-
-.title-text .container {
-  max-width: 1408px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  max-width: 1400px;
   text-align: center;
 }
 
 .main_title {
+  display:flex;
+  justify-content: center;
   margin: 0 0 16px;
   font-family: "Old Standard TT", "Times", "Times New Roman", serif;
   font-size: 80px;
@@ -70,27 +70,20 @@ body {
 /* Список літер */
 
 .header_box {
-  display:flex;
-  justify-content: center;
   margin: 0 auto;
-  padding: 0 auto;
   max-width: 1600px;
-  margin-bottom: 500px;
-  /* align-items: center; */
-  /* background-color:burlywood; */
+  margin-bottom: 550px;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .header_content{
-  /* display:contents; */
   font-size: 40px;
   font-weight: 500;
   text-decoration: none;
   transform: none;
   color: #288be6;
-  /* letter-spacing: 6.5px; */
-  /* background-color: aqua; */
   margin-right: 20px;
-  /* margin-bottom: 200px; */
 }
 
 .header_content:hover {
@@ -105,9 +98,9 @@ body {
 
 /* Секція із А */
 .litera_section {
-  margin: 0 0 80px;
+  display:flex;
+  justify-content: center;
   color:#222222;
-  /* text-shadow: 0 10 20 20 #222222; */
 }
 
 .litera_list {
@@ -130,7 +123,6 @@ body {
 }
 
 .list_name {
-/* text-transform: uppercase; */
 text-decoration: none;
 display: inline-block;
 font-size: 22px;
@@ -141,13 +133,9 @@ color:#222222;
 
 .list_name:hover {
 transform: scaleY(1.2);
-/* transform: scaleX(1.1); */
 transition: 0.5s;
 color: #288be6;
-/* box-shadow: 0px 0px 5px 5px #288be6; */
-/* cursor:pointer; */
 border-radius: 12px;
-/* text-decoration: underline; */
 }
 
 .list_det {
@@ -160,8 +148,6 @@ border-radius: 12px;
 }
 
 .list_det:hover {
-/* transform: scaleY(1.2); */
-/* transform: scaleX(1.1); */
 transition: 0.5s;
 color: #288be6;
 box-shadow: 0px 0px 5px 5px #288be6;
@@ -191,8 +177,6 @@ border-radius: 12px;
 
 .button_anchor_end {
   padding: 16px 16px;
-  /* margin-left: 600px; */
-  /* margin-bottom: 50px; */
   text-decoration: none;
   font-size: 20px;
   text-align: center;
@@ -228,6 +212,7 @@ border-radius: 12px;
 }
 
 .page-footer {
+  margin-top: 80px;
   padding: 40px 0;
   background-color: gold;
   color: #288be6;
