@@ -157,17 +157,19 @@ border-radius: 12px;
 .list_det_sites {
   text-decoration: none;
   display: inline-block;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 500;
-  /* transition: 0.5s; */
-  color:#288be6;
+  color:#113f68;
   }
 
-.list_det_sites:hover {
+  .list_det_sites:hover {
+    transform: scaleX(1.2);
     transform: scaleY(1.2);
     transition: 0.5s;
     color:gold;
+    text-decoration: underline;
     }
+
 
 /* ::marker {
   unicode-bidi: isolate;
