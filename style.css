@@ -172,7 +172,12 @@ border-radius: 12px;
 
   .flag {
   height: 20px;
-width: 30px;
+  width: 30px;
+  }
+
+  .flag_3 {
+    height: 22px;
+    width: 90px;
   }
 
 /* ::marker {
