@@ -1,4 +1,3 @@
-
 html,
 body {
     padding: 0;
@@ -121,6 +120,7 @@ body {
   font-size: 16px;
   font-weight: 500;
 }
+
 
 .list_name {
 text-decoration: none;
@@ -249,7 +249,9 @@ border-radius: 12px;
   width: 100%;
 }
 
-.footer__webfont{
+/* footer */
+
+/* .footer__webfont{
   width: 38px;
     height: 38px;
     font-size: 22px;
@@ -259,10 +261,11 @@ border-radius: 12px;
     border-radius: 5px;
     color: #0d0d0d;
     background: #efeef3;
-}
+} */
 
 .page-footer {
   margin-top: 80px;
+  margin-bottom: 0px;
   padding: 40px 0;
   background-color: gold;
   color: #288be6;
