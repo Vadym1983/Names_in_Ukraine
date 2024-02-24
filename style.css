@@ -225,6 +225,30 @@ border-radius: 12px;
   border-radius: 20px;
 }
 
+/* Експеримент */
+
+.litera_decor_sites {
+  font-size: 38px;
+  font-weight: 500;
+  position: relative;
+  display: inline-block;
+}
+
+.litera_decor_sites::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 2.5rem;
+  width: 0px;
+  height: 5px;
+  background-color: #288be6;
+  transition: 0.5s;
+}
+
+.litera_decor_sites:hover::before{
+  width: 100%;
+}
+
 .footer__webfont{
   width: 38px;
     height: 38px;
