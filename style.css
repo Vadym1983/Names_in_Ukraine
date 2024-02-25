@@ -1,6 +1,8 @@
 html,
 body {
     padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
 }
@@ -12,88 +14,111 @@ body {
   line-height: 32px;
   color: #222222;
   background-color: #f2f4f6;
-  background-image: url("img/hero-bg.jpg"); 
+  background-image: url("img/hero-bg.jpg");
   background-repeat: no-repeat;
   background-position: top center;
 }
 
-/* .container {
-  max-width: 860px;
-  margin: 0 auto;
-  padding: 0 16px;
-  } */
-
-.page-header {
-  margin-bottom: 50px;
-  padding: 40px 0 40px;
+.header_main {
+  position: fixed;
+  width: 100%;
+  min-height: 120px ;
+  padding: 20px 0 20px;
   background-color: #288be6;
 }
 
-.page-header a {
-  margin-left: 60px;
+.header-email {
+  font-size: 16px;
   color:gold;
+  margin-top: 0;
+  margin-left: 30px;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
-}
-
-.header-email {
-  padding-left: 30px;
-  background-image: url("img/icon-email-footer.svg");
+  /* background-image: url("img/icon-email-footer.svg"); */
+  /* background-color: burlywood; */
 }
 
 .header-phone {
-  padding-left: 25px;
-  background-image: url("img/icon-phone-footer.svg");
+  font-size: 16px;
+  color:gold;
+  margin-top: 0px;
+  margin-left: 40px;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
+  /* background-image: url("img/icon-phone-footer.svg"); */
+  /* background-color: burlywood; */
+}
+
+.header-email:hover {
+  color: #113f68;
+  box-shadow: 0px 0px 5px 5px #164b7c;
+  border-radius: 3px;
+}
+
+.header-phone:hover {
+  color: #113f68;
+  box-shadow: 0px 0px 5px 5px #164b7c;
+  border-radius: 3px;
 }
 
 /* Імена в Україні */
 
 .title-text {
-  margin: 0 auto;
-  margin-bottom: 60px;
-  max-width: 1400px;
+  color: #113f68;
   text-align: center;
-}
-
-.main_title {
-  display:flex;
-  justify-content: center;
-  margin: 0 0 16px;
-  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
-  font-size: 80px;
-  line-height: 96px;
+  max-width: 600px;
+  margin-top: -32px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 60px;
   font-weight: 400;
+  font-family: "Montserrat";
+  padding-top: 10px;
+  /* background-color: burlywood; */
 }
 
 /* Список літер */
 
-.header_box {
-  margin: 0 auto;
-  max-width: 1600px;
-  margin-bottom: 550px;
-  padding-left: 70px;
-  padding-right: 70px;
+.header_litera_box {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 25px;
+  max-width: 1800px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  /* background-color:aquamarine; */
 }
 
-.header_content{
-  font-size: 40px;
+.header_litera_content{
+  font:  "Helvetica";
+  font-size: 45px;
   font-weight: 500;
   text-decoration: none;
   transform: none;
-  color: #288be6;
+  color: yellow;
   margin-right: 20px;
 }
 
-.header_content:hover {
+.header_litera_content:hover {
   transform: scaleY(1.2);
   transform: scaleX(1.2);
   transition: 0.7s;
   background-color:none;
-  box-shadow: 0px 0px 5px 5px #288be6;
+  color: #164b7c;
+  box-shadow: 0px 0px 5px 5px #164b7c;
   border-radius: 8px;
 }
 
+.section_space{
+  /* height: 720px; */
+  width: 100%;
+  min-height: 720px;
+  /* background-color: aquamarine; */
+}
 
 /* Секція із А */
 .litera_section {
@@ -180,27 +205,6 @@ border-radius: 12px;
     width: 90px;
   }
 
-/* ::marker {
-  unicode-bidi: isolate;
-  font-variant-numeric: tabular-nums;
-  text-transform: none;
-  text-indent: 0px !important;
-  text-align: start !important;
-  text-align-last: start !important;
-} */
-
-/* .button {
-  padding: 6px 20px;
-  display: inline-block;
-  vertical-align: baseline;
-  text-decoration: none;
-  text-transform: uppercase;
-  border-radius: 4px;          
-  background-color: #e6b728; 
-  color: #ffffff;
-  margin-left: 800px;          
-} */
-
 .button_anchor_end {
   padding: 16px 16px;
   text-decoration: none;
@@ -250,18 +254,6 @@ border-radius: 12px;
 }
 
 /* footer */
-
-/* .footer__webfont{
-  width: 38px;
-    height: 38px;
-    font-size: 22px;
-    line-height: 40px;
-    text-align: center;
-    align-items: center;
-    border-radius: 5px;
-    color: #0d0d0d;
-    background: #efeef3;
-} */
 
 .page-footer {
   margin-top: 80px;
